@@ -1,0 +1,5 @@
+config:
+  hermes-infra:location: hel1
+  hermes-infra:serverType: cx33
+environment:
+  - hermes-infra/secrets
