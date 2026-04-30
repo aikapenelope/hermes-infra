@@ -1,0 +1,21 @@
+{
+  "name": "hermes-infra",
+  "version": "1.0.0",
+  "description": "Hermes Agent VPS infrastructure on Hetzner Cloud",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "npx tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "@pulumi/command": "^1.0.0",
+    "@pulumi/hcloud": "^1.0.0",
+    "@pulumi/pulumi": "^3.113.0",
+    "@pulumi/random": "^4.19.0",
+    "@pulumi/tls": "^5.3.0"
+  }
+}
