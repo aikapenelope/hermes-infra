@@ -1,0 +1,13 @@
+# Node
+node_modules/
+package-lock.json
+
+# Pulumi
+bin/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
